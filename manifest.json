@@ -2,7 +2,7 @@
   "name": "Taylor Floyd - Portfolio Website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://taylorfloyd.github.io/portfolio",
+  "homepage": "https://taylorfloyd.github.io/portfolio/",
   "dependencies": {
 		"gh-pages": "^2.0.1",
 		"react": "^16.8.3",

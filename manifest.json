@@ -1,14 +1,6 @@
 {
   "name": "Taylor Floyd - Portfolio Website",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://taylorfloyd.github.io/portfolio/",
-  "dependencies": {
-		"gh-pages": "^2.0.1",
-		"react": "^16.8.3",
-		"react-dom": "^16.8.3",
-		"react-scripts": "2.1.5",
-		"yarn": "^1.13.0"},
   "icons": [
     {
       "src": "headshot8.ico",
@@ -21,23 +13,7 @@
       "sizes": "512x512"
     }
   ],
-  "scripts": {
-		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"predeploy": "yarn run build",
-		"deploy": "gh-pages -d build",
-		"test": "react-scripts test",
-		"eject": "react-scripts eject"},
-  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000001",
-  "background_color": "#ffffff",
-  "eslintConfig": {
-		"extends": "react-app"},
-	"browserslist": [
-		">0.2%",
-		"not dead",
-		"not ie <= 11",
-		"not op_mini all"
-	]
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
 }

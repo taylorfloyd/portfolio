@@ -1,19 +1,14 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Taylor Floyd",
+  "name": "Taylor Floyd - Portfolio Website",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "headshot8.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
+      "src": "headshot8.jpg",
       "type": "image/png",
       "sizes": "512x512"
     }

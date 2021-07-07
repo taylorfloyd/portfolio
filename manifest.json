@@ -30,7 +30,7 @@
 		"eject": "react-scripts eject"},
   "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#000001",
   "background_color": "#ffffff",
   "eslintConfig": {
 		"extends": "react-app"},

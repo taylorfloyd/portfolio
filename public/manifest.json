@@ -1,6 +1,7 @@
 {
   "short_name": "Taylor Floyd",
   "name": "Taylor Floyd - Portfolio Website",
+  "homepage": "https://taylorfloyd.github.io/portfolio",
   "icons": [
     {
       "src": "headshot8.ico",
@@ -13,6 +14,13 @@
       "sizes": "512x512"
     }
   ],
+  "scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"predeploy": "yarn run build",
+		"deploy": "gh-pages -d build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"},
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",

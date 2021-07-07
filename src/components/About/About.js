@@ -15,7 +15,7 @@ export default function About() {
                 </Col>
                 <Col>
                     <h1>Hi, I'm Taylor</h1>
-                    <h4>lifelong learner • problem-solver • communicator</h4>
+                    {/* <h4>lifelong learner • problem-solver • communicator</h4> */}
                     <p >I'm a software developer with a passion for customer-oriented products. I specialize in web development, specifically using React. </p>
                 </Col>
             </Row>

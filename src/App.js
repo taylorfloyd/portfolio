@@ -1,11 +1,12 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from 'react-bootstrap/Navbar'
-import NavDropdown from 'react-bootstrap/NavDropdown'
+// import NavDropdown from 'react-bootstrap/NavDropdown'
 import Nav from 'react-bootstrap/Nav'
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Resume from './components/Resume/Resume';
+import SoftwareDevelopment from './components/SoftwareDevelopment/SoftwareDevelopment'
 import { Link} from "react-scroll";
 
 function App() {
@@ -81,21 +82,36 @@ function App() {
                   spy={true}
                   hashSpy={true}
                   smooth={true}
-                  duration={500}
+                  duration={1000}
                   >
                   Resume
                 </Link>
               </li>
-            <NavDropdown title="Portfolio" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Software Development</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Technical Writing</NavDropdown.Item>
-            </NavDropdown>
+              <li className="nav-item">
+                <Link
+                  href="#portfolio"
+                  to="portfolio"
+                  activeClass="active"
+                  className="nav-link"
+                  spy={true}
+                  hashSpy={true}
+                  smooth={true}
+                  duration={500}
+                  >
+                  Portfolio
+                </Link>
+              </li>
+            {/* <NavDropdown title="Portfolio" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#portfolio/software">Software Development</NavDropdown.Item>
+              <NavDropdown.Item href="#portfolio/software">Technical Writing</NavDropdown.Item>
+            </NavDropdown> */}
           </Nav>
         </Navbar.Collapse>
       </Navbar>
       <Home />
       <About />
       <Resume />
+      <SoftwareDevelopment />
     </div>
   );
 }

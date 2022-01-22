@@ -13,9 +13,15 @@ Visit the following URL for the live version of this web application: <https://t
 
 1. Clone repository:
         `git clone https://github.com/taylorfloyd/portfolio.git`
+<<<<<<< HEAD
 2. Run the following commands:  
         `yarn install`  
         `yarn start`  
+=======
+2. Run the following commands:
+        `yarn install`
+        `yarn start`
+>>>>>>> f13a73e460de88459dd27603529b5cdf7c08f3b2
 
 ## Updating the Code
 
@@ -27,7 +33,13 @@ Run the following command: `yarn deploy`
 
 ## How to Push Changes to Github Repository
 
+<<<<<<< HEAD
 Run the following commands:  
         `git add .`  
         `git commit -m"[commit message]"`  
+=======
+Run the following commands:
+        `git add .`
+        `git commit -m"[commit message]"`
+>>>>>>> f13a73e460de88459dd27603529b5cdf7c08f3b2
         `git push`

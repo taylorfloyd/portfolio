@@ -8,6 +8,7 @@ import About from './components/About/About';
 import Resume from './components/Resume/Resume';
 import SoftwareDevelopment from './components/SoftwareDevelopment/SoftwareDevelopment'
 import { Link} from "react-scroll";
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -112,6 +113,7 @@ function App() {
       <About />
       <Resume />
       <SoftwareDevelopment />
+      <Footer />
     </div>
   );
 }

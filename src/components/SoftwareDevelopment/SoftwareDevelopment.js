@@ -22,6 +22,7 @@ export default function SoftwareDevelopment() {
                         <Button 
                         variant="primary"
                         href="https://github.com/taylorfloyd/portfolio"
+                        target='_blank'
                         >Source Code on Github</Button>
                     </p>
                 </Jumbotron>

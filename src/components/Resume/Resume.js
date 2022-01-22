@@ -61,7 +61,7 @@ export default function Resume() {
                     <div className="experience">
                         <h2>Frontend IoT Software Developer</h2>
                         <h5 className="subheader">SAS Institute - Cary, NC</h5>
-                        <h6 className="date">Sept 2019 - Present</h6>
+                        <h6 className="date">Sept 2019 - Sept 2021</h6>
                         <ul>
                             <li>Headed frontend development for a customer-facing React IoT application in Azure Marketplace.</li>
                             <li>Created a full-stack IoT Smart Campus application with React and Node/Express.</li>

@@ -1,28 +1,27 @@
 import React from "react";
-import './About.css'
+import './Footer.css'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 
 
-export default function About() {
+export default function Footer() {
   return (
-    <div className="About" id="about" href="#about">
+    <div className="Footer" id="footer" href="#footer">
         <Container >
             <Row className="Row">
                 <Col >
-                    <img src="headshot9.jpg" alt="Avatar"/>
+                <p >This web application was created by Taylor Floyd </p>
                 </Col>
                 <Col>
-                    <h1>Hi, I'm Taylor</h1>
-                    {/* <h4>lifelong learner • problem-solver • communicator</h4> */}
-                    <p >I'm a software developer with a passion for customer-oriented products. I specialize in web development, specifically using React. </p>
+                    <p>
                     <Button
-                        variant="dark"
+                        variant="link"
                         href="https://www.linkedin.com/in/taylor-floyd/"
                         target='_blank'
                     >Contact Me on LinkedIn</Button>
+                    </p>
                 </Col>
             </Row>
         </Container>

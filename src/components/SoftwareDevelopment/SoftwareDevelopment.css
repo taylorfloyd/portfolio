@@ -14,7 +14,29 @@ img {
     height:auto;
   }
 
-.Row {
-    /* height: 100%; */
+.Row-software-development {
+    height: 40vh;
     align-items: center;
+}
+
+.Row-software-development {
+    height: 40vh;
+    align-items: center;
+}
+
+.Row-portfolio-app-title {
+    height: 10vh;
+    align-items: center;
+}
+
+.Jumbotron-software-development {
+    padding: 5vh 10vh 5vh 10vh;
+    vertical-align: middle;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+}
+
+.Col-software-development {
+    
 }

@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <div className="Footer" id="footer" href="#footer">
         <Container >
-            <Row className="Row">
+            <Row className="Row-footer">
                 <Col >
                 <p >This web application was created by Taylor Floyd </p>
                 </Col>

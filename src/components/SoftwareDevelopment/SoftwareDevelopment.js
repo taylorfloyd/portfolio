@@ -20,7 +20,7 @@ export default function SoftwareDevelopment() {
                 <div className="Jumbotron-software-development">
                     <h3>Portfolio Application</h3>
                     <p>
-                        I developed this portfolio using React with JavaScript. It showcases my resume, education informaion, and links to my current projects.
+                        I developed this portfolio using React with JavaScript. It showcases my resume, education information, and links to my current projects.
                     </p>
                     <p>
                         <Button 
